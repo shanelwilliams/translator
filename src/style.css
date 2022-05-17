@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Chilanka&family=Paprika&display=swap');
+
+body {
+    text-align: center;
+    background: url('https://media.farandwide.com/b4/48/b4481789437d44828163b83211a82cd8.jpeg') no-repeat fixed center;
+    background-size: 90%;
+}
+
+.title {
+    text-align: center;
+    font-family: 'Paprika', cursive;
+    font-size: 3.5rem;
+    color: black;
+    text-decoration: underline;
+}
+
+.text-from {
+    width: 350px;
+    height: 150px;
+    font-family: 'Chilanka', cursive;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    opacity: 75%;
+}
+
+.submit-button {
+    width: 360px;
+    height: 35px;
+    margin-top: 2.5px;
+    font-family: 'Chilanka', cursive;
+    font-weight: bold;
+    font-size: 20px;
+    opacity: 80%;
+}
+
+.submit-button:hover {
+    background-color: rgb(160, 240, 240);
+}
+
+.text {
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.form {
+    margin: 1rem;
+}
+    
+li {
+    display: flex;
+    background-color: lightgray;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Chilanka', cursive;
+    font-size: 1.5rem;
+    flex-wrap: wrap;
+    opacity: 90%;
+}
